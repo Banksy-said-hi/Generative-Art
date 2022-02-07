@@ -49,7 +49,7 @@ const layers = [
     {
         id: 1,
         name: "background",
-        location: `${dir}/background`,
+        location: `${dir}/background/`,
         elements: getElements(`${dir}/background/`),
         position: {x: 0, y: 0},
         size: {width: width, height: height },
