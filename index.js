@@ -23,4 +23,3 @@ for (let i = 1; i <= edition; i++) {
         drawLayer();
     })
 }
-drawLayer();
