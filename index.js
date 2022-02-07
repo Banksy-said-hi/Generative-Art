@@ -18,5 +18,9 @@ const drawLayer = async () => {
     saveLayer(canvas);
 };
 
-
+for (let i = 1; i <= edition; i++) {
+    layers.forEach(layer => {
+        drawLayer();
+    })
+}
 drawLayer();
